@@ -2,7 +2,7 @@ name: vector_map_tiles_pmtiles
 description: PMTiles tile provider for vector_map_tiles (flutter_map vector tiles). It uses HTTP Range Requests to request tiles from a single local or hosted file.
 repository: https://github.com/josxha/flutter_map_plugins
 issue_tracker: https://github.com/josxha/flutter_map_plugins/issues
-topics: [ flutter-map, vector-map-tiles, map, pmtiles ]
+topics: [flutter-map, vector-map-tiles, map, pmtiles]
 version: 1.5.1
 resolution: workspace
 funding:
@@ -10,22 +10,12 @@ funding:
   - https://github.com/sponsors/josxha
 
 environment:
-  sdk: '>=3.6.0 <4.0.0'
+  sdk: ">=3.8.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  pmtiles: ^1.2.0
+  pmtiles: ^1.3.0
   vector_map_tiles: ^10.0.0-beta.2
   vector_tile_renderer: ^6.0.0
-
-dev_dependencies:
-  build_runner: ^2.4.8
-  flutter_map: ^8.0.0
-  flutter_test:
-    sdk: flutter
-  latlong2: ^0.9.0
-  mockito: ^5.4.4
-  test: ^1.24.9
-  very_good_analysis: ^10.0.0
